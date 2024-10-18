@@ -1,0 +1,61 @@
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.navItems {
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff !important;
+  padding: 0.75rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #ffeb3b !important;
+  text-decoration: underline;
+}
+
+.navLinkActive {
+  font-weight: bold;
+  border-bottom: 2px solid #ffeb3b;
+}
+
+.cartIconWrapper {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+}
+
+.badge {
+  background-color: #ff6f61;
+  font-size: 0.75rem;
+}
+
+.langButton {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.langButton:hover, .langButton:focus {
+  background-color: #fff;
+  color: #4285f4;
+}
